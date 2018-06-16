@@ -1,0 +1,137 @@
+/**** UNIVERSAL STYLES ****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Wisdom-Script';
+    src: url('./font/wisdom-script.otf') format('opentype');
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+li,
+span {
+    color: #77a466;
+}
+
+/**** GRID ****/
+
+.full-width {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.half-width {
+    float: left;
+    width: 50%;
+}
+
+.third-width {
+    float: left;
+    height: 208px;
+    text-align: left;
+    width: 30%;
+}
+
+/**** HEADER ****/
+
+header {
+    height: 106px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+.half-width ul {
+    margin-top: 28px;
+}
+
+.half-width li {
+    font-size: 14px;
+    display: inline;
+    list-style-type: none;
+    padding-left: 21px;
+    text-transform: uppercase;
+}
+
+/**** MAIN ****/
+
+#feature {
+    background-image: url("../img/hero-image.png");
+    height: 295px;
+    background-size: cover;
+}
+
+/**** ABOUT ****/
+
+#about h2 {
+    font-size: 18px;
+    margin-top: 28px;
+}
+
+#about p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+/**** DETAILS ****/
+
+#details {
+    margin-top: 39px;
+}
+
+#details .third-width {
+    padding-left: 33px;
+}
+
+#full-border {
+    border: 1px solid lightgray;
+}
+
+.half-border {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;;
+}
+
+.third-width h3 {
+  font-size: 12px;
+}
+
+.third-width ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.third-width li,
+.third-width p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  width: 327px;
+}
+
+
+/**** FOOTER ****/
+
+footer {
+  clear: both;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+footer span {
+  font-family: 'Wisdom-Script', serif;
+}
